@@ -58,6 +58,12 @@ git remote add (origin) (repo-url)
 git remote -v
 #shows all the urls attached to that folder.
 
+git push (url-name #origin) (branch-name)
+#pushes commited changes to url ot github.
+
+git remote remove (url-name)
+#removes that attached url from the repo.
+
 
 
 
