@@ -67,6 +67,19 @@ git remote remove (url-name)
 git config --global credential.useHttpPath true
 #to use pushs from local to url.
 
+#Contributing to other projects to have to fork into your repo or account.
+#and clone it it git.
+
+git clone (url)
+#clone that url into your local machine.
+#points main into its last commit HEAD -> main
+
+#origin is our url
+#you should add forked url into your local clone folder to commits or pullrequests.
+
+git remote add (url name -- (upstream -- forked url)) (url)
+#now thta folder contains 2 attached urls to commit and stage into.
+
 
 
 
