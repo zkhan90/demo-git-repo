@@ -1,3 +1,5 @@
+---
+
 git init
 #Initialing an empty repo in that directory. this will create a .git folder which is hidden.
 
@@ -79,6 +81,11 @@ git clone (url)
 
 git remote add (url name -- (upstream -- forked url)) (url)
 #now thta folder contains 2 attached urls to commit and stage into.
+
+git pull (upstream) (main)
+#to sync the upstream to your forked repo.
+
+---
 
 
 
