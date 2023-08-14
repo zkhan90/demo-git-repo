@@ -64,6 +64,9 @@ git push (url-name #origin) (branch-name)
 git remote remove (url-name)
 #removes that attached url from the repo.
 
+git config --global credential.useHttpPath true
+#to use pushs from local to url.
+
 
 
 
