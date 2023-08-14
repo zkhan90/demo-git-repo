@@ -1,0 +1,88 @@
+git init
+#Initialing an empty repo in that directory. this will create a .git folder which is hidden.
+
+ls -a
+#command to show hidden files and folders.
+
+ls .git
+#to list the hidden .git folder
+#INSIDE .git folder -->  Head config decription hooks/ info/ objects/ refs/
+
+git status
+#to get current status of that repo.
+
+git add (filename) (filename)...
+or
+git add . 
+#add newly create files or folder to tracked files or folder
+#add . means add all untracked files to tracked.
+#now after all the files and folder will be tracked.
+#but not commit or history is stored.
+
+git commit -m (some commit message) or git commit
+#this command will save your project history in git.
+#now git status will look clean and no tracked and no untracked files or folders.
+#pullrequest and commit are different.
+#git commit is just commit without message.
+
+
+git log
+#shows all the commits(History of the project).
+
+git reset (commit-id)
+#restores your project to that time.
+#top of all that commit will be gone.
+#project will be back at stage when that photo or commit is taken.
+
+#after reseting to particular commit the all modified files and folder will be unstaged 
+#if u wantt them will be stored but not commited back you can use stash.
+#if you dont want it you can can directly commit.
+
+git stash
+#the staged file and folder will be stored seperatly and will be not untracked.
+#if we want it after we can get it back.
+
+git stash pop
+#stash storage all will be back at untracked area.
+
+git stash clear
+#clears the whole stash.
+
+git remote add (origin) (repo-url)
+#this cmd connects your github repo with current local project or repo.
+#so u can directly push the changes of local machine into github repo.
+#remote means adding a url
+#origin means name of the url or repo for this local project to access afterwards.
+#if you want to push -- push with name of the repo example origin.
+
+git remote -v
+#shows all the urls attached to that folder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
